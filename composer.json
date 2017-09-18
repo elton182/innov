@@ -1,0 +1,16 @@
+{
+    "name": "sonepar/edi",
+    "description": "EDI Sonepar",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Elton",
+            "email": "elton.nicolau@innovareti.com.br"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {"Edi\\": "src/"},
+        "files": ["src/App/Helpers.php"]
+    }
+}
