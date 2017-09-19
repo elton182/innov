@@ -1,5 +1,10 @@
-<h1>Bem vindo ao Innov</h1>
+<h1>Bem vindo ao {{ message }} </h1>
 
+<?php
+foreach ( $array as $a ) {
+  echo $a . '<br>';
+}
+?>
 
 <p>Abaixo uma URL de test</p>
 <ul>

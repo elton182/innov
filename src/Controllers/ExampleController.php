@@ -15,7 +15,13 @@ class ExampleController extends Controller{
      */
     public function index()
     {                   
-        return $this->view('example/index');
+        $message = 'Hello World';
+        $array = [
+            'item1' => 'valor1',
+            'item2' => 'valor2',
+            'item3' => 'valor3',
+        ];
+        return $this->view('example/index',compact('message','array'));
     }
 
     /**
