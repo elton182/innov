@@ -1,8 +1,8 @@
 <?php
 
-namespace Edi\App;
+namespace App\App;
 
-use Edi\Routes\Router;
+use App\Routes\Router;
 
 /**
  * Classe que inicializa a aplicação

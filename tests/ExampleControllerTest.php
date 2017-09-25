@@ -2,7 +2,7 @@
 
 require_once dirname(__DIR__) . '/vendor/autoload.php';
 
-use Edi\Controllers\ExampleController;
+use App\Controllers\ExampleController;
 
 class ExampleControllerTest extends \PHPUnit\Framework\TestCase{
 

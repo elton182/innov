@@ -1,6 +1,6 @@
 <?php
 
-namespace Edi\Routes;
+namespace App\Routes;
 
 /**
  * Classe que faz a roterização da aplicação
@@ -142,7 +142,7 @@ class Router
 
         
         $call       = explode('@',$route);
-        $controller = 'Edi\Controllers\\' . $call[0];
+        $controller = 'App\Controllers\\' . $call[0];
         $method     = $call[1];
         
         $request = new \StdClass;

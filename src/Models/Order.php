@@ -1,9 +1,9 @@
 <?php
 
-namespace Edi\Models;
+namespace App\Models;
 
-use Edi\Database\Builder;
-use Edi\Models\OrderItem;
+use App\Database\Builder;
+use App\Models\OrderItem;
 use Exception;
 
 /**
@@ -45,7 +45,7 @@ class Order extends Model
      * @var array
      */
     protected $relation     = [
-        'model' => 'Edi\Models\OrderItem',
+        'model' => 'App\Models\OrderItem',
         'table' => 'PEDIDO_VALE_ITEM',
         'foreign_key' => 'ID_PEDIDO_VALE'
     ];

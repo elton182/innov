@@ -1,6 +1,6 @@
 <?php
 
-namespace Edi\Database;
+namespace App\Database;
 
 use \oci_connect;
 use \oci_execute;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Edi\Controllers;
+namespace App\Controllers;
 
 /**
  * Classe base do controller

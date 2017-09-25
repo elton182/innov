@@ -5,7 +5,7 @@
  */
 $rotas = [
     '' => 'ExampleController@index',
-    '/test' => 'ExampleController@test',
+    '/test' => 'ExampleController@test'
 ];
 
 return $rotas;

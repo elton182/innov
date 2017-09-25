@@ -10,7 +10,7 @@
     ],
     "require": {},
     "autoload": {
-        "psr-4": {"Edi\\": "src/"},
+        "psr-4": {"App\\": "src/"},
         "files": ["src/App/Helpers.php"]
     }
 }

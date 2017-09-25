@@ -1,6 +1,6 @@
 <?php
 
-    namespace Edi\Console;
+    namespace App\Console;
     
     require dirname(__DIR__) . '/../vendor/autoload.php';
 

@@ -1,7 +1,7 @@
 <?php
 
-namespace Edi\Controllers;
-use Edi\Models\Order;
+namespace App\Controllers;
+use App\Models\Order;
 
 /**
  * ExampleController - Controller responsável por...
@@ -33,7 +33,7 @@ class ExampleController extends Controller{
     {        
         return $this->view('example/test');
     }
-    
+
 
 }
 
