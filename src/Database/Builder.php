@@ -19,10 +19,6 @@ class Builder{
      */
     protected $con;    
 
-    // 172.16.1.242
-    // sistedi
-    // ihgTsgdTYh5x
-
     /**
      * método que irá desconectar uma conexão com o banco
      *
